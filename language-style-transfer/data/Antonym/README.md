@@ -4,7 +4,7 @@ The antonyms are from nltk.wordnet and a customized list for common antonym pair
 
 :)
 
-==LIMITATION ANALYSIS==
+**LIMITATION ANALYSIS**
 - Not every word has an antonym available in wordnet, for example "superb" doesn't.
 - Hard for nltk library to correctly mark all POS, eg. it distinguishes "disgusting" as a verb.
 - There are neutral or informative words like "other", "eastern", "first->last" that shouldn't be changed.
