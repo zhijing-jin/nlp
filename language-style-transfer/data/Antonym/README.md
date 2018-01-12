@@ -7,7 +7,7 @@ The antonyms are from nltk.wordnet and a customized list for common antonym pair
 **LIMITATION ANALYSIS**
 - Not every word has an antonym available in wordnet, for example "superb" doesn't.
 - Hard for nltk library to correctly mark all POS, eg. it distinguishes "disgusting" as a verb.
-- There are neutral or informative words like "other", "eastern", "first->last" that shouldn't be changed.
+- There are neutral or informative words like "other", "eastern->western", "first->last" that shouldn't be changed.
 - Changing the word to its antonym somtimes does not result in natural sentences, eg. "It is obvious that...".
 - Changing an even number of antonyms may offset the change or distort the sentence a little, eg. "It is _obvious_ that the food here is _great_." -> "It is _unobvious_ that the food here is _terrible_."
 - Some verbs like "like", "disgust" as well as adverbs like "greatly", "agreeably" also implies sentiment.
