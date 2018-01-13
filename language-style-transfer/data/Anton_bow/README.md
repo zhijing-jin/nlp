@@ -1,6 +1,7 @@
-I used the countvectorizer and logistic regression in sklearn library.
 
-Here list the most weighted 200 words in descending order.
+Here list the most weighted 200 words in descending order of their __absolute__ values.
+
+
 | word  | weight |
 | ---  | --- |
 | worst	| -10.240 |
