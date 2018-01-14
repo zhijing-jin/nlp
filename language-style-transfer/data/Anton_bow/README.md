@@ -1,3 +1,6 @@
+Cons of changing top weight words into their antonyms:
+- an even number of change may cause offset. Eg. "It is a big mistake ." -> "It is a small success .". But sometimes it works. Eg. "never go to that terrible place again ." -> "always go to that good place again ."
+- Words like "fat"->"thin", "well cooked"->"half done/undercooked" are related to specific food and personal preferences. Changing them does not necessarily change the sentiment effectively.
 
 Here list the most weighted 200 words in descending order of their __absolute__ values.
 
