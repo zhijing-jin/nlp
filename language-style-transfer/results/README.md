@@ -12,9 +12,4 @@
 |  |  |  |  |  |
 | ak | 02120842 | att | learning_rate 0.00001 | CUDA_VISIBLE_DEVICES=1 python att.py --train ../data/runtime/ti2/pos2neg/train --vocab ../data/runtime/vocab.txt --embedding ../data/glove.6B.100d.pruned.txt --dev ../data/runtime/ti2/pos2neg/dev --test ../data/runtime/ti2/pos2neg/test --output ../data/runtime/ak/02120842 --model ../data/runtime/at/02090154checkp.ep49.pth.tar --max_epochs 500 --batch_size 1024 --learning_rate 0.00001 |
 |  |  |  |  |  |
-| at | 02120232 | att | no teacher forcing | CUDA_VISIBLE_DEVICES=2 python
- att.py --train ../data/runtime/ti2/pos2neg/train --vocab ../data/runtime/vocab.txt --embedding ../da
-ta/glove.6B.100d.pruned.txt --dev ../data/runtime/ti2/pos2neg/dev --test ../data/runtime/ti2/pos2neg/
-test --output ../data/runtime/at/02120232 --model ../data/runtime/at/02090154checkp.ep49.pth.tar --ma
-x_epochs 500 --batch_size 1024
- |
+| at | 02120232 | att | no teacher forcing | CUDA_VISIBLE_DEVICES=2 python att.py --train ../data/runtime/ti2/pos2neg/train --vocab ../data/runtime/vocab.txt --embedding ../data/glove.6B.100d.pruned.txt --dev ../data/runtime/ti2/pos2neg/dev --test ../data/runtime/ti2/pos2neg/test --output ../data/runtime/at/02120232 --model ../data/runtime/at/02090154checkp.ep49.pth.tar --max_epochs 500 --batch_size 1024 |
