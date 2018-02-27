@@ -1,39 +1,38 @@
 ## Overall Results
-### (1) Newest Updates
+### 1. Newest Updates
+#### (1.1) Style Transfer (<15 words)
+- 20 epoch -> 78.57%
 
-	(1.1) Style Transfer (<15 words)
-	- (20 epoch) -> 78.57%
+#### (1.2) Noise Model
+- normal style_transfer (20 epoch)      -> 78.57%
+- noise model with permute+dropout  -> 83.69%   (rho=0.3 & gamma=0.5)
 
-	(1.2) Noise Model
-	- normal style_transfer (20 epoch)      -> 78.57%
-	- noise model with permute+dropout  -> 83.69%   (rho=0.3 & gamma=0.5)
+#### (1.3) Antonym Method
+- normal style_transfer (20 epoch)      -> 78.57%
+- substitute all adj. with antonyms      -> 42.11%
+- substitute all adj. + BOW top1000 words with antonyms -> 48.81%
+- substitute all BOW top1000 words with antonyms           -> 45.70%
+- substitute all BOW top1000 words with antonyms, and only keep changed sentences -> 75.16%
 
-	(1.3) Antonym Method
-	- normal style_transfer (20 epoch)      -> 78.57%
-	- substitute all adj. with antonyms      -> 42.11%
-	- substitute all adj. + BOW top1000 words with antonyms -> 48.81%
-	- substitute all BOW top1000 words with antonyms           -> 45.70%
-	- substitute all BOW top1000 words with antonyms, and only keep changed sentences -> 75.16%
+#### (1.4) Pseudo Pairs with NMT (attention)
+- pseudo sentence pairs by cosine similarity of TF-IDF: 
+https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer/data/TfidfPairs
+- sample results for 15-word sentences (Original | Pseudo Pair | NMT) -> 可以scroll down看一下后面的长句子:
+https://github.com/zhijing-jin/nlp/blob/master/language-style-transfer/data/TfidfPairs/long_sent/test.comp
+- sample results for 15-word sentences (Original | Pseudo Pair | StyleTransfer):
+https://raw.githubusercontent.com/zhijing-jin/nlp/master/language-style-transfer/results/01141156.compare.1.tsf
+- sample results for long sentences (Original | Pseudo Pair | NMT) -> 可以scroll down看一下后面的长句子:
+https://github.com/zhijing-jin/nlp/blob/master/language-style-transfer/data/TfidfPairs/long_sent/test.comp
 
-	(1.4) Pseudo Pairs with NMT (attention)
-	- pseudo sentence pairs by cosine similarity of TF-IDF: 
-	https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer/data/TfidfPairs
-	- sample results for 15-word sentences (Original | Pseudo Pair | NMT) -> 可以scroll down看一下后面的长句子::
-	https://github.com/zhijing-jin/nlp/blob/master/language-style-transfer/data/TfidfPairs/long_sent/test.comp
-	- sample results for 15-word sentences (Original | Pseudo Pair | StyleTransfer):
-	https://raw.githubusercontent.com/zhijing-jin/nlp/master/language-style-transfer/results/01141156.compare.1.tsf
-	- sample results for long sentences (Original | Pseudo Pair | NMT) -> 可以scroll down看一下后面的长句子:
-	https://github.com/zhijing-jin/nlp/blob/master/language-style-transfer/data/TfidfPairs/long_sent/test.comp
-	- 
 
-### Google Sheet of Progress:
+### 2. Google Sheet of Progress:
 https://docs.google.com/spreadsheets/d/10oth0gMC0Ywy2CWVxSzvcnF4GVkKzh3SpPO-HAbIlQg/edit#gid=0
 
-### Github repository:
+### 3. Github repository:
 https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 
 
-### Appendix: Past Tries
+#### Appendix: Past Tries
 
 
 
