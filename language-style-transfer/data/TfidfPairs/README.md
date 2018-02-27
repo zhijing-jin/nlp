@@ -12,6 +12,7 @@ The Pseudo pairs are generated according to the rule:
 ### Pros and Cons for TF-IDF Pseudo Pairs
 #### Cons:
  * For certain datasets or small datasets, it's hard to match corresponding opposite sentences in the training set.
+ * For long sentences, there is no off-hand exact match.
  * The TF-IDF pairs are _just_ sentences with high cosine similarity of their TF-IDF vectors. For example, it may pair a neg sentence with a _negative_ sentence in the positive review. 
 ```
 Examples
