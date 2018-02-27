@@ -1,6 +1,6 @@
 ### NMT with Att:
-* pred (long sentences): [test.comp](long_sent/test.comp)
-* pred (15-word sentences): [test.comp](15words_sent/test.comp)
+* prediction (long sentences): [test.comp](long_sent/test.comp)
+* prediction (15-word sentences): [test.comp](15words_sent/test.comp)
 
 ### Pseudo pairs
 The Pseudo pairs (15words.0 and 15words.1) are generated according to the rule:
