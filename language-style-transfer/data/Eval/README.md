@@ -1,6 +1,6 @@
 # OVERVIEW OF THE YELP SET
 ## CONTENT DISTRIBUTION
-Review subjects contains: 
+Review contents covers: 
 * food
 * car repair 
 * laundry
