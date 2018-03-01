@@ -44,54 +44,54 @@ this is not my favorite mexican restaurant .
  ```
 
 ### Analysis of NMT with Pseudo Pairs
-----------------------------------------------
-----------------------------------------------
-BAD PAIRS
-----------------------------------------------
-cool atmosphere inside .
-cool atmosphere .
-cool atmosphere .
-----------------------------------------------
-nice modern art .
-it 's modern !
-nice art art .
-----------------------------------------------
-service is great too
-service is great .
-service is great .
-----------------------------------------------
-best prime rib in the valley !
-prime rib was the best there .
-prime rib was the best there .
-----------------------------------------------
-they 're very accommodating and helpful .
-very helpful , very nice and accommodating !
-the staff was very helpful and accommodating .
+
+
+#### BAD PAIRS
+
+    cool atmosphere inside .
+    cool atmosphere .
+    cool atmosphere .
+
+    nice modern art .
+    it 's modern !
+    nice art art .
+
+    service is great too
+    service is great .
+    service is great .
+
+    best prime rib in the valley !
+    prime rib was the best there .
+    prime rib was the best there .
+
+    they 're very accommodating and helpful .
+    very helpful , very nice and accommodating !
+    the staff was very helpful and accommodating .
 
 
 
 
 
-----------------------------------------------
-----------------------------------------------
-GOOD PAIRS
-----------------------------------------------
-best dental stuff of my life .
-this was the worst dental experience of my life .
-worst dental experience of my life .
-----------------------------------------------
-reminds me of restaurants in italy .
-it reminds me of frozen food ...
-it reminds me of frozen food ...
-----------------------------------------------
-i would go here again for the price .
-i would n't go here again .
-i would n't go here again .
 
-----------------------------------------------
-----------------------------------------------
-AMBIGUOUS
-----------------------------------------------
-one of my favorite places in downtown champaign .
-i miss the old downtown champaign location .
-this used to be one of my favorite places .
+
+#### GOOD PAIRS
+
+    best dental stuff of my life .
+    this was the worst dental experience of my life .
+    worst dental experience of my life .
+
+    reminds me of restaurants in italy .
+    it reminds me of frozen food ...
+    it reminds me of frozen food ...
+
+    i would go here again for the price .
+    i would n't go here again .
+    i would n't go here again .
+
+
+
+#### AMBIGUOUS
+
+    one of my favorite places in downtown champaign .
+    i miss the old downtown champaign location .
+    this used to be one of my favorite places .
