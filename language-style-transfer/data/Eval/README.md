@@ -34,6 +34,7 @@ Review subjects contains:
 ### 2. CLEAR & SHALLOW SENTIMENT
 
 ####	2.1 EASY 
+
 		food was amazing !
 		we been here a few times and had a positive experience each time .
 		love the decor .
@@ -43,6 +44,7 @@ Review subjects contains:
 		great drinks and apps as well .
 
 ####	2.2	CLEAR SENTIMENT, BUT USING COMMONSENSE
+
 		i showed up with a friend who is not caucasian , and the bartender did n't acknowledge us at all although we both said hi .
 		service was also one step behind denny 's .
 		they simply take your order , and bring you good food , followed by the check .
@@ -53,6 +55,7 @@ Review subjects contains:
 		i 've got to figure out how they made it .
 ####	2.3 LONG CONTENT + EASY-TO-CONVERT SENTIMENTS
 These sentiments are expressed in 1 or 2 adj./ verb./ noun. phrases
+
 		we loved everything we had - guacamole , bean dip , blue seafood enchiladas , crab cake tacos , stacked steak enchilada with an egg , and beef chimichanga .
 		i ordered the spooning relleno peppers with cheese and chorizo , breaded and fried , a huge plate with _num_ relleno and rice and beans , very tasty .
 		highly recommended - the stacked enchiladas were excellent and the salsa is to die for .
@@ -88,7 +91,8 @@ These sentiments are expressed in 1 or 2 adj./ verb./ noun. phrases
 
 ## TYPICAL MISTAKES
 
-In order to cover the edge cases for most methods, the evaluation set should include:
+Quick summary: In order to cover the edge cases for most methods, the evaluation set should include:
+
 * both short and long sentences
 * sentences with many adjectives
 * sentences with slang expressions, figurative expressions
@@ -101,17 +105,19 @@ In order to cover the edge cases for most methods, the evaluation set should inc
 #### 1.1 Cases where changing to the antonyms doesn't convert the sentiments
 
 	there are only _num_ pumps here and in a small parking lot so good luck trying to maneuver around when its busy .
-	It is obvious that ...
+	it is obvious that ...
 #### 1.2 Sentences with too many adjectives
 Some of the adjectives should be changed, while others should not.
+
 	i loved when they had the punch card so you got a free coffee after buying so many but now they have an app with lots of deals too which is cool .
 
 #### 1.3 Sentences with no antonyms that WordNet can change
-40% of the sentences do not contain words that can be changed into antonyms
+40% of the sentences do not contain words that can be changed into antonyms.
+
 	they also brought my minestrone soup out less than a minute from the time i ordered ( the bus boy overheard my order and left to the kitchen before the waiter ) .
 #### 1.4 Limitations of WordNet
-There are phrases that WordNet cannot tackle, such as "less than" -> "more than", "this place is a gem", etc.
-There are inappropriate antonyms that WordNet provides, such as "pretty cool place" -> "ugly warm place", etc.
+* There are phrases that WordNet cannot tackle, such as "less than" -> "more than", "this place is a gem", etc.
+* There are inappropriate antonyms that WordNet provides, such as "pretty cool place" -> "ugly warm place", etc.
 
 ### 2. MISTAKES FOR TF-IDF
 #### 2.1 Long sentences
@@ -134,11 +140,11 @@ There are inappropriate antonyms that WordNet provides, such as "pretty cool pla
 
 ### 3. MISTAKES FOR Style Transfer
 #### 3.1 Object Mismatch:
-	_num_ cent street tacos and the _num_ gordito are amazing .
-	the tacos are $ 4- $ _num_ .
+	Original: _num_ cent street tacos and the _num_ gordito are amazing .
+	Style Transfer: the tacos are $ 4- $ _num_ .
 
-	great food , great service , great beer .
-	terrible service , poor service , horrible food .
+	Original: great food , great service , great beer .
+	Style Transfer: terrible service , poor service , horrible food .
 
 #### 3.2 Not accurate at short sentences (compared to Antonym method):
 	Original: as i said , best ever !
