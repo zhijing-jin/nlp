@@ -138,7 +138,7 @@ Some of the adjectives should be changed, while others should not.
 #### 2.3 Subtle sentiments:
 	i was full from dinner and snuck my drink in .
 
-### 3. MISTAKES FOR Style Transfer
+### 3. MISTAKES FOR STYLE TRANSFER
 #### 3.1 Object Mismatch:
 	Original: _num_ cent street tacos and the _num_ gordito are amazing .
 	Style Transfer: the tacos are $ 4- $ _num_ .
