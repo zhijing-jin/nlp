@@ -1,6 +1,6 @@
 # OVERVIEW OF THE YELP SET
 ## CONTENT DISTRIBUTION
-Review contents covers: 
+Review contents cover: 
 * food
 * car repair 
 * laundry
