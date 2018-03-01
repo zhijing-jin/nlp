@@ -34,6 +34,8 @@ Review contents cover:
 ### 2. CLEAR & SHALLOW SENTIMENT
 
 ####	2.1 EASY 
+The sentence is usually like:
+STH + is + GOOD/BAD.
 
 		food was amazing !
 		we been here a few times and had a positive experience each time .
@@ -44,6 +46,7 @@ Review contents cover:
 		great drinks and apps as well .
 
 ####	2.2	CLEAR SENTIMENT, BUT USING COMMONSENSE
+The sentence looks neutral, but is not. You need some **commonsense** to understand the sentence.
 
 		i showed up with a friend who is not caucasian , and the bartender did n't acknowledge us at all although we both said hi .
 		service was also one step behind denny 's .
@@ -54,7 +57,7 @@ Review contents cover:
 		this place breaks your car so you have to go back to them !
 		i 've got to figure out how they made it .
 ####	2.3 LONG CONTENT + EASY-TO-CONVERT SENTIMENTS
-These sentiments are expressed in 1 or 2 adj./ verb./ noun. phrases
+The sentences has some long contents, but clear sentiment expressions of like or dislike. These sentiments are expressed in 1 or 2 adj./ verb./ noun. phrases
 
 		we loved everything we had - guacamole , bean dip , blue seafood enchiladas , crab cake tacos , stacked steak enchilada with an egg , and beef chimichanga .
 		i ordered the spooning relleno peppers with cheese and chorizo , breaded and fried , a huge plate with _num_ relleno and rice and beans , very tasty .
@@ -63,6 +66,8 @@ These sentiments are expressed in 1 or 2 adj./ verb./ noun. phrases
 
 
 ### 3. INDIRECT SENTIMENT / EUPHEMISTIC (HARD-TO-CONVERT)
+These sentiments are hidden in the descriptions. And it's very hard to define an opposite sentence for them.
+
 *	(NEG) they need to take down the sign \`\` ... ... somewhere in the world a vegan is crying ''
 *	(NEG) whenever i am seated i always move because they always start placing people nearest to the door and i personally dont like being seated there !
 *	(NEG) my tostado looked more like a salad with all the lettuce piled on it .	
@@ -77,6 +82,8 @@ These sentiments are expressed in 1 or 2 adj./ verb./ noun. phrases
 
 
 ### 4. PARTLY NEG, PARTLY POS
+Part of the sentence expresses some sentiment and the other expresses another sentiment.
+
 *	i miss the mario machines they used to have , but it 's still a great place steeped in tradition .
 *	i usually order the burger , while the patties are obviously cooked from frozen , all of the other ingredients are very fresh .
 *	but other than that the staff is always pleasant and fast to make your order .
