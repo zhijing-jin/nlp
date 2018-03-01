@@ -55,6 +55,7 @@ The sentence looks neutral, but is not. You need some **commonsense** to underst
 		also , how the hell does a fondue place run out of cheese ? !
 		i think this place needs help .
 		this place breaks your car so you have to go back to them !
+		diamond in the rough !
 		i 've got to figure out how they made it .
 ####	2.3 LONG CONTENT + EASY-TO-CONVERT SENTIMENTS
 The sentences has some long contents, but clear sentiment expressions of like or dislike. These sentiments are expressed in 1 or 2 adj./ verb./ noun. phrases
