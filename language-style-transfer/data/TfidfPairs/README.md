@@ -37,4 +37,8 @@ one star only just because the halo halo is very good .
  * TF-IDF captures lots of sentences with same nouns (same content), but with different sentiment because they are in positive and negative sets.
  * This can be a baseline for unsupervised methods
 
- 
+ ```
+this is my favorite mexican food restaurant in the valley .
+so , this mexican restaurant is just like any other mexican restaurant in the valley .
+this is not my favorite mexican restaurant .
+ ```
