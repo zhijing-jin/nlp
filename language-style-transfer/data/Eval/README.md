@@ -79,7 +79,10 @@ These sentiments are hidden in the descriptions. And it's very hard to define an
 *	(POS) you want a place for a first date ?
 *	(POS) ask for sampling before you order though - if you 're going to be drinking that much of one or two flavors , you better make sure it 's a good one .
 * (NEG) we have experienced some billing issues ( they overbilled us for a very long time , did n't tell us and just started giving us credits instead of asking if we wanted a refund ) and once they told us that we had no insurance coverage because my _num_ year old reached his lifetime max ( how does that even make sense ? ? ? ? ?
-
+*	(NEG) one good thing i can say is that the service was quick .
+*	(NEG) the prices are cheaper here but you get what you pay for !
+*	(NEG) these people need to learn customer service right and give it better !
+*	(NEG) go to taco y taco on trop & pecos , much much better..
 
 
 ### 4. PARTLY NEG, PARTLY POS
