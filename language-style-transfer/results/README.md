@@ -51,5 +51,8 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 |  | 02242102 | att | 15 words, tfidf pairs hollow, filtered 1.5 ratio |  |
 |  | 02261711 | att | long sent, filtered 1.5 ratio |  |
 |  |  |  |  |  |
+| aj | 03301140 | nmt | single encoder for 1->0 and 0->1, batch is 1<->0 |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
