@@ -51,7 +51,7 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 |  | 02242102 | att | 15 words, tfidf pairs hollow, filtered 1.5 ratio |  |
 |  | 02261711 | att | long sent, filtered 1.5 ratio |  |
 |  |  |  |  |  |
-| aj | 03301140 | nmt | single encoder for 1->0 and 0->1, batch is 1<->0, when passing in y0 you should not use an all-zero vector |  |
+| aj | 03301140 | nmt | single encoder for 1->0 and 0->1, batch is 1<->0, when passing in y0 you should not use an all-zero vector | CUDA_VISIBLE_DEVICES=0 python python style_transfer_aj.py --train ../code/baselines/mt/nmt-tf/nmt/testdata/train --dev ../code/baselines/mt/nmt-tf/nmt/testdata/tst2013 --test ../code/baselines/mt/nmt-tf/nmt/testdata/tst2012 --output ../data/runtime/aj/03301705 --vocab ../data/runtime/vocab_ted.0 --vocab1 ../data/runtime/vocab_ted.1 --embedding ../data/glove.6B.100d.pruned.txt --embedding1 ../code/baselines/mt/nmt-tf/nmt/testdata/vocab.1 --model ../data/runtime/aj/03301705.model |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
