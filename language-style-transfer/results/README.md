@@ -54,6 +54,6 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 |  | 02242102 | att | 15 words, tfidf pairs hollow, filtered 1.5 ratio |  |
 |  | 02261711 | att | long sent, filtered 1.5 ratio |  |
 
-|  |  |  |  |  |
-|  |  |  |  |  |
+| ao |  | mt for tfidf pairs |  | CUDA_VISIBLE_DEVICES=0 python python style_transfer_al.py --train ../../code/baselines/mt/OpenNMT-py/data/train --dev ../../code/baselines/mt/OpenNMT-py/data/dev --test ../../code/baselines/mt/OpenNMT-py/data/test --output ../../data/runtime/ao/04040722 --vocab ../../data/runtime/am/vocab --vocab1 ../../data/runtime/am/vocab --embedding ../../data/glove.6B.100d.pruned.txt --embedding1 ../../data/glove.6B.100d.pruned.txt --model ../../data/runtime/ao/04040722.model --dim_emb 100 --batch_size 64 --learning_rate 0.01 --max_epochs 20 |
+| ap |  | changing y to emb |  | CUDA_VISIBLE_DEVICES=2 python python style_transfer_y.py --train ../../data/runtime/yf/sentiment.train.uniq --dev ../../data/runtime/yf/sentiment.dev --test ../../data/runtime/yf/sentiment.test --output ../../data/runtime/ap/04040829 --vocab ../../data/runtime/am/vocab --embedding ../../data/glove.6B.100d.pruned.txt --model ../../data/runtime/ap/04040829.model --dim_emb 100 |
 |  |  |  |  |  |
