@@ -162,7 +162,7 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
-|  |  |  |  |  |
+| yj |  | senti_clf dataset | 2018 yelp, 10-sent reviews, same pos & neg number, <= 15-word sents | 1293541句 ../yj/train.0; 71863句 ../yj/test.1 |
 |  |  |  |  |  |
 
 
