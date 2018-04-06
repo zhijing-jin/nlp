@@ -162,8 +162,15 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
-| yj |  | senti_clf dataset | 2018 yelp, 10-sent reviews, same pos & neg number, <= 15-word sents | 1293541句 ../yj/train.0; 71863句 ../yj/test.1 |
+| yj |  | senti_clf dataset | 2018yelp, 10sent reviews, same pos & neg number, <= 15-word sents | 1293541句 ../yj/train.0; 71863句 ../yj/test.1 |
+| yk |  | overall dataset | 2018yelp, 10sent reviews, same pos&neg number, long sents | 2419201 ../yk/longsente.train.0; 134400 ../yk/longsente.test.1 |
 |  |  |  |  |  |
-
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 |  |  |  |  | CUDA_VISIBLE_DEVICES=0 python python style_transfer_y.py --train ../../data/runtime/yf/sentiment.train.uniq --dev ../../data/runtime/yf/sentiment.dev --test ../../data/runtime/yf/sentiment.test --output ../../data/runtime/aq/04041956 --vocab ../../data/runtime/am/vocab --embedding ../../data/glove.6B.100d.pruned.txt --model ../../data/runtime/aq/04041956.model --dim_emb 100 |
