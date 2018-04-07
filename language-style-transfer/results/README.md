@@ -160,15 +160,7 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
-| yh |  |  |  | 1. Number of Businesses<br>
-	number of all Yelp businesses：  		174,567		business.json<br>
-	number of restaurant businesses：      	72,065		review.resta_id<br>
-2. Reviews
-	Total reviews：	    					5,261,669	review.json <br>
-	Restaurant reviews： 					3,635,685	review.rate_n_sent <br>
-	
-	Sentence-by-sentence restaurant reviews:	36,628,355 review.nice.multilingual<br>
-	Sentence-by-sentence restaurant reviews (9268 English vocab):	36,621,804 review.nice |
+| yh |  |  |  | 1. Number of Businesses<br>	number of all Yelp businesses：  		174,567		business.json<br>	number of restaurant businesses：      	72,065		review.resta_id<br>2. Reviews<br>	Total reviews：	    					5,261,669	review.json <br>	Restaurant reviews： 					3,635,685	review.rate_n_sent <br>		Sentence-by-sentence restaurant reviews:	36,628,355 review.nice.multilingual<br>	Sentence-by-sentence restaurant reviews (9268 English vocab):	36,621,804 review.nice |
 |  |  |  |  |  |
 | yj |  | senti_clf dataset | 2018yelp, 10sent reviews, same pos & neg number, <= 15-word sents | 1293541句 ../yj/train.0; 71863句 ../yj/test.1 |
 | yk |  | overall dataset | 2018yelp, 10sent reviews, same pos&neg number, long sents | 2419201 ../yk/longsente.train.0; 134400 ../yk/longsente.test.1 |
