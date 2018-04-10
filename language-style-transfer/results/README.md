@@ -158,7 +158,7 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
-|  |  |  |  |  |
+| yf |  | 2017nips | original dataset | sentiment.train.uniq.0<br>  224451 sentiment.train.uniq.1<br> 25602 sentiment.dev.0<br>   38292 sentiment.dev.1<br>   51206 sentiment.test.0<br>   76584 sentiment.test.1<br>  159507  |
 |  |  |  |  |  |
 | yh |  | 2018yelp (restaurant) |  | 1. Number of Businesses<br>	number of all Yelp businesses：  		174,567		business.json<br>	number of restaurant businesses：      	72,065		review.resta_id<br>2. Reviews<br>	Total reviews：	    					5,261,669	review.json <br>	Restaurant reviews： 					3,635,685	review.rate_n_sent <br>		Sentence-by-sentence restaurant reviews:	36,628,355 review.nice.multilingual<br>	Sentence-by-sentence restaurant reviews (9268 English vocab):	36,621,804 review.nice |
 | yi |  | 2018yelp (restaurant), split |  |    2687937 yi/sent_to10.0<br>   8689184 yi/sent_to10.1<br>    893517 yi/sent_to5.0<br>   3417738 yi/sent_to5.1<br> |
