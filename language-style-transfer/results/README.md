@@ -63,9 +63,9 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 |  |  |  |  |  |
 | az | 04101533 | style_trans with pseudo pairs |  | CUDA_VISIBLE_DEVICES=0 python2 python2 style_transfer_az.py --train ../../data/runtime/yj/refined/train --dev ../../data/runtime/yj/refined/dev --test ../../data/runtime/yj/refined/test --vocab ../../data/runtime/az/04101533.vocab --embedding ../../data/glove.6B.100d.txt --output ../../data/runtime/az/04101533 --model ../../data/runtime/az/04101533.model --dim_emb 100 --batch_size 32 --learning_rate 0.0001 --max_epochs 20 --vocab_min_occur 300 |
 |  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| bc |  | style_transfer with better hyperparameters |  |  |
+| bd |  | another style_trans with pseudo pairs |  |  |
+| be | 05042050 | nmt with tf-idf pairs |  | CUDA_VISIBLE_DEVICES=0 python train.py -save_model runtime_models/05042050 -batch_size 64 -layers 2 \-rnn_size 500 -word_vec_size 100 -pre_word_vecs_enc "./data/05042050.embeddings.enc.pt" -pre_word_vecs_dec "./data/05042050.embeddings.dec.pt" -data ./data/reparti.cut50  -gpuid 0 |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
