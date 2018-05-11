@@ -66,8 +66,8 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 | bc |  | style_transfer with better hyperparameters |  |  |
 | bd |  | another style_trans with pseudo pairs |  |  |
 | be | 05042050 | nmt with tf-idf pairs |  | CUDA_VISIBLE_DEVICES=0 python train.py -save_model runtime_models/05042050 -batch_size 64 -layers 2 \-rnn_size 500 -word_vec_size 100 -pre_word_vecs_enc "./data/05042050.embeddings.enc.pt" -pre_word_vecs_dec "./data/05042050.embeddings.dec.pt" -data ./data/reparti.cut50  -gpuid 0 |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| bf |  | DeleteAndRetrieval |  | I cloned Li Juncen's model, amended the python2.decode, and added more "echo" statements |
+| bg |  | DeleteAndRetrieval |  | Trained on 100k data |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
