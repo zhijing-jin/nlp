@@ -69,7 +69,7 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 | bf |  | DeleteAndRetrieval |  | I cloned Li Juncen's model, amended the python2.decode, and added more "echo" statements |
 | bg |  | DeleteAndRetrieval |  | Trained on 100k data |
 |  |  |  |  |  |
-| bj |  | DeleteAndRetrieval, 100k |  |  |
+| bj |  | DeleteAndRetrieval, 100k, 30 epoch |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
