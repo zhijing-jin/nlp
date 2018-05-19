@@ -71,7 +71,7 @@ https://github.com/zhijing-jin/nlp/tree/master/language-style-transfer
 |  |  |  |  |  |
 | bj |  | DeleteAndRetrieval, 100k, 30 epoch |  |  |
 | bi |  | results for DeleteAndRetreival |  | the log.output is in ../bf<br>The ep31 is the best output (MinLen=1)<br>The DeleteAndRetrieval_ep01 and ep30 has some "","None" in them (MinLen=9) |
-|  |  |  |  |  |
+| bm |  | DeleteAndRe on yf/juncen | try to get the output |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
